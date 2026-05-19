@@ -1,0 +1,11 @@
+{"version": 2, "width": 80, "height": 24, "timestamp": 1779202834, "idle_time_limit": 1.5, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "title": "cdn-bench — race 9 global CDNs · github.com/fafsfafaf/cdn-bench"}
+[0.006251, "o", "\r\n\u001b[1mcdn-bench v1.0.0\u001b[0m · 9 CDNs · 3 rounds each\r\n\r\n  \u001b[1mCDN           DNS       CONNECT    TLS       TOTAL (avg) \u001b[0m\r\n  \u001b[2m──────────────────────────────────────────────────────────\u001b[0m\r\n"]
+[0.274489, "o", "  \u001b[36mCloudflare  \u001b[0m  3ms       6ms        30ms      \u001b[32m45ms        \u001b[0m\r\n"]
+[0.520065, "o", "  \u001b[36mjsDelivr    \u001b[0m  3ms       5ms        31ms      \u001b[32m37ms        \u001b[0m\r\n"]
+[0.946177, "o", "  \u001b[36mBunny       \u001b[0m  4ms       6ms        31ms      \u001b[36m98ms        \u001b[0m\r\n"]
+[1.19791, "o", "  \u001b[36mFastly      \u001b[0m  3ms       6ms        34ms      \u001b[32m42ms        \u001b[0m\r\n"]
+[1.500978, "o", "  \u001b[36mAkamai      \u001b[0m  5ms       6ms        32ms      \u001b[36m56ms        \u001b[0m\r\n"]
+[2.493334, "o", "  \u001b[36mCloudFront  \u001b[0m  3ms       8ms        35ms      \u001b[33m285ms       \u001b[0m\r\n"]
+[2.740682, "o", "  \u001b[36mGoogleCDN   \u001b[0m  2ms       5ms        30ms      \u001b[32m41ms        \u001b[0m\r\n"]
+[3.035035, "o", "  \u001b[36mMS Azure    \u001b[0m  3ms       4ms        34ms      \u001b[36m51ms        \u001b[0m\r\n"]
+[3.362542, "o", "  \u001b[36mUNPKG       \u001b[0m  5ms       8ms        33ms      \u001b[36m65ms        \u001b[0m\r\n\r\n  \u001b[1m🏆 fastest CDN from your location:\u001b[0m \u001b[32mjsDelivr\u001b[0m (37ms total)\r\n\r\n"]

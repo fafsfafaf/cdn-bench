@@ -11,6 +11,22 @@
 curl -fsSL https://raw.githubusercontent.com/fafsfafaf/cdn-bench/master/cdn-bench.sh | bash
 ```
 
+## Demo
+
+Recorded with [asciinema](https://asciinema.org/). View it locally:
+
+```bash
+# install asciinema if needed: pip install asciinema
+asciinema play demo.cast
+```
+
+Or upload to asciinema.org for an embeddable badge:
+
+```bash
+asciinema auth      # one-time, opens browser
+asciinema upload demo.cast
+```
+
 ## Why
 
 Picking a CDN by marketing slides is silly. The right answer is "whichever has the lowest latency from where your users actually are." `cdn-bench` measures **DNS / TCP-connect / TLS-handshake / total time** from your machine to 9 major CDN edges, in 15 seconds.
